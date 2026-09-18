@@ -1,0 +1,361 @@
+/* ===============================
+   GLOBAL
+================================ */
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.7;
+    color: #333;
+}
+
+section {
+    scroll-margin-top: 75px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.section-padding {
+    padding: 80px 0;
+}
+
+.section-title {
+    text-align: center;
+    margin-bottom: 45px;
+}
+
+.section-title h2 {
+    font-weight: 700;
+    color: #123b68;
+}
+
+.title-line {
+    width: 80px;
+    height: 4px;
+    background: #f0ad1e;
+    margin: 12px auto;
+}
+
+
+/* ===============================
+   TOP BAR
+================================ */
+
+.top-bar {
+    background: #0b2948;
+    color: white;
+    padding: 8px 0;
+    font-size: 14px;
+}
+
+.top-bar a {
+    color: white;
+}
+
+.top-bar a:hover {
+    color: #ffc107;
+}
+
+
+/* ===============================
+   NAVBAR
+================================ */
+
+.navbar {
+    padding: 15px 0;
+}
+
+.navbar-brand {
+    font-size: 26px;
+    letter-spacing: 1px;
+}
+
+.nav-link {
+    margin-left: 8px;
+}
+
+
+/* ===============================
+   HERO
+================================ */
+
+.hero-section {
+    background:
+        linear-gradient(
+            rgba(5, 44, 82, 0.88),
+            rgba(5, 44, 82, 0.88)
+        ),
+        url("https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?auto=format&fit=crop&w=1800&q=80");
+
+    background-position: center;
+    background-size: cover;
+    color: white;
+}
+
+.min-vh-75 {
+    min-height: 75vh;
+}
+
+.journal-badge {
+    display: inline-block;
+    background: #ffc107;
+    color: #222;
+    padding: 7px 15px;
+    border-radius: 25px;
+    font-weight: bold;
+}
+
+
+/* ===============================
+   INFO CARDS
+================================ */
+
+.info-card {
+    text-align: center;
+    background: white;
+    padding: 30px 15px;
+    border-radius: 10px;
+    height: 100%;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08);
+}
+
+.info-card i {
+    font-size: 35px;
+    color: #0d6efd;
+}
+
+.info-card h5 {
+    margin-top: 15px;
+}
+
+
+/* ===============================
+   ABOUT
+================================ */
+
+.about-box {
+    background: #123b68;
+    padding: 30px;
+    color: white;
+    border-radius: 10px;
+}
+
+
+/* ===============================
+   SCOPE
+================================ */
+
+.scope-card {
+    height: 100%;
+    padding: 30px;
+    background: white;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.07);
+}
+
+.scope-card:hover {
+    transform: translateY(-7px);
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.13);
+}
+
+.scope-card i {
+    font-size: 40px;
+    color: #0d6efd;
+}
+
+.scope-card h4 {
+    margin-top: 15px;
+    color: #123b68;
+}
+
+
+/* ===============================
+   EDITOR CARDS
+================================ */
+
+.editor-card {
+    height: 100%;
+    border-left: 5px solid #0d6efd;
+    background: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 5px 18px rgba(0, 0, 0, 0.08);
+}
+
+.position {
+    display: inline-block;
+    color: #0d6efd;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+
+/* ===============================
+   PUBLISH SECTION
+================================ */
+
+.bg-journal {
+    background: linear-gradient(
+        120deg,
+        #0b2948,
+        #115c9c
+    );
+}
+
+
+/* ===============================
+   PRICE CARDS
+================================ */
+
+.price-card {
+    background: white;
+    padding: 35px;
+    border-radius: 12px;
+    border-top: 5px solid #0d6efd;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.09);
+    text-align: center;
+    height: 100%;
+}
+
+.price-card h2 {
+    color: #0d6efd;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+
+/* ===============================
+   PAYMENT
+================================ */
+
+.payment-section {
+    background: #f5f8fb;
+}
+
+.payment-card {
+    max-width: 850px;
+    margin: auto;
+    background: white;
+    padding: 35px;
+    border-radius: 12px;
+    box-shadow: 0 6px 25px rgba(0, 0, 0, 0.09);
+}
+
+.payment-card h3 {
+    color: #123b68;
+}
+
+.payment-icon {
+    font-size: 55px;
+    color: #0d6efd;
+    display: block;
+    margin-bottom: 20px;
+}
+
+.nav-pills .nav-link {
+    color: #123b68;
+    font-weight: 600;
+    margin: 5px;
+}
+
+.nav-pills .nav-link.active {
+    background: #123b68;
+}
+
+.copy-btn {
+    border: 0;
+    padding: 3px 10px;
+    margin-left: 10px;
+    font-size: 12px;
+    border-radius: 4px;
+    background: #e8f1ff;
+    color: #0d6efd;
+}
+
+.gateway-placeholder {
+    padding: 35px;
+    border: 2px dashed #bbb;
+    border-radius: 10px;
+    margin-top: 25px;
+}
+
+.gateway-placeholder i {
+    font-size: 45px;
+    color: #198754;
+}
+
+.payment-confirmation {
+    max-width: 850px;
+    margin: auto;
+    text-align: center;
+    padding: 30px;
+    background: white;
+    border-radius: 12px;
+}
+
+
+/* ===============================
+   CONTACT
+================================ */
+
+.contact-card {
+    height: 100%;
+    padding: 30px;
+    background: #f8f9fa;
+    border-radius: 10px;
+}
+
+.contact-card i {
+    color: #0d6efd;
+    margin-right: 10px;
+}
+
+
+/* ===============================
+   FOOTER
+================================ */
+
+footer {
+    background: #071c30;
+    color: #ccc;
+    padding: 50px 0;
+}
+
+footer h5 {
+    color: white;
+}
+
+
+/* ===============================
+   RESPONSIVE
+================================ */
+
+@media (max-width: 768px) {
+
+    .hero-section {
+        text-align: center;
+    }
+
+    .hero-section h1 {
+        font-size: 35px;
+    }
+
+    .section-padding {
+        padding: 55px 0;
+    }
+
+    .payment-card {
+        padding: 20px;
+    }
+
+    .top-bar .container {
+        justify-content: center !important;
+        gap: 8px;
+    }
+}
