@@ -1,0 +1,7 @@
+User-agent: Googlebot
+Disallow: /nogoogle/
+
+User-agent: *
+Disallow: /private/
+
+Sitemap: https://ijapr-quarterly.vercel.app/sitemap.xml
