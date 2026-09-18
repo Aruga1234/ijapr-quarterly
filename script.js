@@ -85,9 +85,9 @@ function payWithUPI() {
        Do NOT enter your bank account number here.
     */
 
-    const upiId = "8247063268@ybl";
+    const upiId = "8247063268@ibl";
 
-    if (upiId === "8247063268@ybl") {
+    if (upiId === "8247063268@ibl") {
 
         alert(
             "Please configure your actual UPI ID in script.js first."
