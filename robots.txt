@@ -5,3 +5,8 @@ User-agent: *
 Disallow: /private/
 
 Sitemap: https://ijapr-quarterly.vercel.app/sitemap.xml
+
+User-agent: *
+Allow: /
+
+Sitemap: https://sridhar-consultancy-and-it-services.vercel.app/sitemap.xml
